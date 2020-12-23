@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url("assets/markus-spiske-2G8mnFvH8xk-unsplash.jpg");
+        height: 500px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-size: cover;
+        background-attachment: fixed;
+      }
+
+      .header {
+        padding: 80px 80px 80px 5px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+      }
+
+      .header h1 {
+        font-size: 40px;
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+      }
+
+      .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+
+      .navbar a.right {
+        float: right;
+      }
+
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .navbar a.active {
+        background-color: #666;
+        color: white;
+      }
+
+      .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+      }
+
+      .side {
+        -ms-flex: 30%;
+        flex: 30%;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+
+      .main {
+        -ms-flex: 70%;
+        flex: 70%;
+        background-color: white;
+        padding: 20px;
+      }
+
+      /* Fake image, just for this example */
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        /* padding: 20px; */
+      }
+
+      .story_format {
+        padding: 10px;
+        border: 2px solid lightgray;
+        border: 1px solid lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header row" style="text-align: left">
+        <h1
+          style="
+            font-family: 'Times New Roman', Times, serif, monospace;
+            font-weight: 900;
+          "
+        >
+          FLORIDA MAN: Fact or Fiction
+        </h1>
+        <p>
+          FLORIDA MAN: Fact or Fiction The purpose of this website is to
+          highlight the emotional rollercoaster that is Floridian news. With
+          police reports being freely available to news outlets, it is often in
+          Florida that we find the strangest yet most entertaining headlines
+          from America’s most colourful state. Shown below are my 3 favourite
+          headlines of recent years. Do your best to follow along and remember
+          to ask: What would Florida-man do?
+        </p>
+      </div>
+
+      <div class="row main-content" style="background-color: white">
+        <div
+          class="col content-left"
+          style="border: 1px solid lightgray; border-radius: 5px"
+        >
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col">
+                  <div class="row" style="border: 1px solid lightgray">
+                    <div class="col story_format">
+                      <div id="q1_title" class="fakeimg" style="height: 200px">
+                        <img
+                          id="q1img"
+                          style="height: 150px; width: 100%"
+                          src="assets/q1s1.jpg"
+                          alt=""
+                        />
+
+                        <h3>The Legend of Florida-Man: Story 1</h3>
+                      </div>
+
+                      <div
+                        id="question_set1"
+                        style="border: 1px solid lightgray; padding: 20px"
+                      >
+                        <div
+                          id="question1"
+                          style="
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                          "
+                        >
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+
+                          <p>
+                            What do you think Florida-Man would do if he missed
+                            his friends who were in jail?
+                          </p>
+                          <div id="button_ans1" style="padding: 10px">
+                            <button class="btn btn-outline-secondary" value="">
+                              Wait for them their sentences to finish
+                            </button>
+                            <button class="btn btn-outline-secondary">
+                              Patiently make new friends during their stay
+                            </button>
+                            <button
+                              class="btn btn-outline-secondary"
+                              id="q1_ans"
+                            >
+                              Break into jail for a friendly visit
+                            </button>
+                          </div>
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+                        </div>
+
+                        <div>
+                          <p
+                            id="1"
+                            style="
+                              border: 1px solid lightgray;
+                              border-radius: 5px;
+                              background-color: #f1f1f1;
+                              padding: 30px;
+                              font-weight: bolder;
+                            "
+                          >
+                            Authorities in Indian River County, Florida,
+                            arrested a man Monday night after he allegedly tried
+                            to forcefully enter the county jail. Police said he
+                            told them he was high on the synthetic drug flakka
+                            and just wanted to "visit friends who were in the
+                            jail," according to WPBF TV.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div
+                        id="question_set2"
+                        style="border: 1px solid lightgray; padding: 20px"
+                      >
+                        <div
+                          id="question2"
+                          style="
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                          "
+                        >
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+
+                          <p>
+                            What tools do you think Florida-Man would use to
+                            effectively enter the jail?
+                          </p>
+                          <div id="button_ans2" style="padding: 10px">
+                            <button class="btn btn-outline-secondary" value="">
+                              Guns and armour to overpower the local guards
+                            </button>
+                            <button class="btn btn-outline-secondary">
+                              Explosives to breach the walls
+                            </button>
+                            <button
+                              class="btn btn-outline-secondary"
+                              id="q2_ans"
+                            >
+                              A Toyota Carolla and his bare hands
+                            </button>
+                          </div>
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+                        </div>
+
+                        <div>
+                          <p
+                            id="2"
+                            style="
+                              border: 1px solid lightgray;
+                              border-radius: 5px;
+                              background-color: #f1f1f1;
+                              padding: 30px;
+                              font-weight: bolder;
+                            "
+                          >
+                            The suspect, 24-year-old Patrick Rempe, attempted to
+                            break into the county jail by ramming his car into
+                            the front door and then trying to climb the fence.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div
+                        id="question_set3"
+                        style="border: 1px solid lightgray; padding: 20px"
+                      >
+                        <div
+                          id="question3"
+                          style="
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                          "
+                        >
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+
+                          <p>
+                            How do you think the local authorities responded to
+                            Florid-Man’s enthusiasm?
+                          </p>
+                          <div id="button_ans3" style="padding: 10px">
+                            <button class="btn btn-outline-secondary" value="">
+                              Florida-Man was let go with a warning
+                            </button>
+                            <button class="btn btn-outline-secondary">
+                              Florida-Man was permitted to have a pleasant
+                              <br />
+                              evening with his friends
+                            </button>
+                            <button
+                              class="btn btn-outline-secondary"
+                              id="q3_ans"
+                            >
+                              Florida-Man was taken into custody.
+                            </button>
+                          </div>
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+                        </div>
+
+                        <div>
+                          <p
+                            id="3"
+                            style="
+                              border: 1px solid lightgray;
+                              border-radius: 5px;
+                              background-color: #f1f1f1;
+                              padding: 30px;
+                              font-weight: bolder;
+                            "
+                          >
+                            He was arrested when he got tangled in the fence's
+                            razor wire. Sheriff's department officials estimate
+                            the damage to be at least $5,000. After being taken
+                            into custody and treated for minor injuries, Rempe
+                            is being held without bond which, ironically, gives
+                            him plenty of time to reconnect with old friends.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div id="question_set2"></div>
+                    </div>
+
+                    <div class="col">
+                      <div id="story1_headline">
+                        .
+                        <div
+                          class="row d-flex justify-content-center"
+                          style="padding: 20px"
+                        >
+                          <img
+                            src="assets/q1s1.jpg"
+                            alt=""
+                            style="
+                              padding: 20px;
+                              border: 1px solid lightgray;
+                              border-radius: 5px;
+                              height: 200px;
+                              width: 200px;
+                            "
+                          />
+
+                          <h5 style="color: black; font-weight: bolder">
+                            <p>
+                              Florida Man Arrested For Attempting To Break Into
+                              Jail to Visit friends
+                            </p>
+                          </h5>
+                          <p>
+                            <a
+                              href="https://www.huffingtonpost.ca/entry/florida-man-arrested-for-attempting-to-break-into-jail_n_5671cce6e4b0688701dbfd9b?ri18n=true
+                            "
+                            >
+                              https://www.huffingtonpost.ca/entry/florida-man-arrested-for-attempting-to-break-into-jail_n_5671cce6e4b0688701dbfd9b?ri18n=true
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row" style="border: 1px solid lightgray">
+                    <div class="col story_format">
+                      <div id="q2_title" class="fakeimg" style="height: 200px">
+                        <img
+                          id="q2img"
+                          style="height: 150px; width: 100%"
+                          src="assets/SNTWHOKDLVGYZOFKV4IPGWRMKY.jpg"
+                          alt=""
+                        />
+                        <h3>The Legend of Florida Man: Story 2</h3>
+                      </div>
+
+                      <div
+                        id="question_set4"
+                        style="border: 1px solid lightgray; padding: 20px"
+                      >
+                        <div
+                          id="question4"
+                          style="
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                          "
+                        >
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+
+                          <p>
+                            What do you think Florida-Man is Florida-Man’s idea
+                            of a good time when visiting his former high school?
+                          </p>
+                          <div id="button_ans4" style="padding: 10px">
+                            <button class="btn btn-outline-secondary" value="">
+                              Having a friendly chat with his old teachers
+                            </button>
+                            <button class="btn btn-outline-secondary">
+                              Playing basketball in the field with his friends
+                            </button>
+                            <button
+                              class="btn btn-outline-secondary"
+                              id="q4_ans"
+                            >
+                              High-speed driving and reckless endangerment
+                            </button>
+                          </div>
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+                        </div>
+
+                        <div>
+                          <p
+                            id="4"
+                            style="
+                              border: 1px solid lightgray;
+                              border-radius: 5px;
+                              background-color: #f1f1f1;
+                              padding: 30px;
+                              font-weight: bolder;
+                            "
+                          >
+                            An aspiring Florida rapper by the name of Volvique
+                            Louis Jean was pulled over on suspicion of reckless
+                            driving after his vehicle and two other cars were
+                            seen speeding by his former school, Atlantic
+                            Community High School in Delray Beach, Fla., nearly
+                            hitting a few students leaving the building.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div
+                        id="question_set5"
+                        style="border: 1px solid lightgray; padding: 20px"
+                      >
+                        <div
+                          id="question5"
+                          style="
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                          "
+                        >
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+
+                          <p>
+                            What vehicle of choice do you think Floridian police
+                            officers used in their pursuit of Florida-Man?
+                          </p>
+                          <div id="button_ans5" style="padding: 10px">
+                            <button class="btn btn-outline-secondary" value="">
+                              A Ford Mustang
+                            </button>
+                            <br />
+                            <button class="btn btn-outline-secondary">
+                              A Honda Accord
+                            </button>
+                            <br />
+                            <button
+                              class="btn btn-outline-secondary"
+                              id="q5_ans"
+                            >
+                              A golf cart
+                            </button>
+                          </div>
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+                        </div>
+
+                        <div>
+                          <p
+                            id="5"
+                            style="
+                              border: 1px solid lightgray;
+                              border-radius: 5px;
+                              background-color: #f1f1f1;
+                              padding: 30px;
+                              font-weight: bolder;
+                            "
+                          >
+                            Officers in a golf cart followed the cars, pulled
+                            into the center of the road and forced the three
+                            cars to stop. When they walked up to Jean Jr.’s car,
+                            they asked him for his driver’s license.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div
+                        id="question_set6"
+                        style="border: 1px solid lightgray; padding: 20px"
+                      >
+                        <div
+                          id="question6"
+                          style="
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                          "
+                        >
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+
+                          <p>
+                            When pressed for ID, what do you think Florida Man
+                            provided when pulled over by the police?
+                          </p>
+                          <div id="button_ans6" style="padding: 10px">
+                            <button class="btn btn-outline-secondary" value="">
+                              His driver’s license
+                            </button>
+                            <br />
+                            <button class="btn btn-outline-secondary">
+                              His Social Security card
+                            </button>
+                            <br />
+                            <button
+                              class="btn btn-outline-secondary"
+                              id="q6_ans"
+                            >
+                              His most recent mixtape
+                            </button>
+                          </div>
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+                        </div>
+
+                        <div>
+                          <p
+                            id="6"
+                            style="
+                              border: 1px solid lightgray;
+                              border-radius: 5px;
+                              background-color: #f1f1f1;
+                              padding: 30px;
+                              font-weight: bolder;
+                            "
+                          >
+                            When Jean Jr. was asked for his driver's license,
+                            which was suspended, he pulled out the next best
+                            alternative: his homemade mix CD. After the cop was
+                            handed the CD, Jean Jr. and his comrades fled the
+                            scene, almost hitting more students during his peel
+                            out. He was finally found on Wednesday, Jan. 13,
+                            arrested and charged for fleeing and eluding,
+                            reckless driving, driving with a suspended license
+                            and trespassing on school grounds.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div id="story2_headline" style="">
+                        .
+                        <div
+                          class="row d-flex justify-content-center"
+                          style="padding: 20px"
+                        >
+                          <img
+                            src="assets/SNTWHOKDLVGYZOFKV4IPGWRMKY.jpg"
+                            alt=""
+                            style="
+                              padding: 20px;
+                              border: 1px solid lightgray;
+                              border-radius: 5px;
+                              width: 200px;
+                              height: 200px;
+                            "
+                          />
+
+                          <h5 style="color: black; font-weight: bolder">
+                            <p>
+                              Florida Rapper Hands Cop His Mixtape Instead Of
+                              I.D. After Being Pulled Over
+                            </p>
+                          </h5>
+                          <p>
+                            <a
+                              href="https://www.vibe.com/2016/01/
+                            florida-rapper-hands-cop-mixtape#
+                            :~:text=handed%20a%20police%20officer
+                            %20a,of%20reckless%20driving%20on%20Oct"
+                              >https://www.vibe.com/2016/01/
+                              florida-rapper-hands-cop-mixtape#
+                              :~:text=handed%20a%20police%20officer
+                              %20a,of%20reckless%20driving%20on%20Oct.</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row" style="border: 1px solid lightgray">
+                    <div class="col story_format">
+                      <div id="q3_title" class="fakeimg" style="height: 200px">
+                        <img
+                          id="q3img"
+                          style="height: 150px; width: 100%"
+                          src="assets/urinal-bathroom-generic_36831733_ver1.0.jpg"
+                          alt=""
+                        />
+
+                        <h3>The Legend of Florida Man: Story 3</h3>
+                      </div>
+
+                      <div
+                        id="question_set7"
+                        style="border: 1px solid lightgray; padding: 20px"
+                      >
+                        <div
+                          id="question7"
+                          style="
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                          "
+                        >
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+
+                          <p>
+                            When upset about having to use the restroom, how do
+                            you think Florida-man dealt with his frustrations
+                            and insecurities at the local pub?
+                          </p>
+                          <div id="button_ans7" style="padding: 10px">
+                            <button class="btn btn-outline-secondary" value="">
+                              Finishing his business and getting another drinke
+                            </button>
+                            <br />
+                            <button class="btn btn-outline-secondary">
+                              Having a heart-to-heart with the barkeep
+                            </button>
+                            <br />
+                            <button
+                              class="btn btn-outline-secondary"
+                              id="q7_ans"
+                            >
+                              Taking out his anger by ripping a urinal off the
+                              wall
+                            </button>
+                          </div>
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+                        </div>
+
+                        <div>
+                          <p
+                            id="7"
+                            style="
+                              border: 1px solid lightgray;
+                              border-radius: 5px;
+                              background-color: #f1f1f1;
+                              padding: 30px;
+                              font-weight: bolder;
+                            "
+                          >
+                            Police were called to a flooded Miller’s Ale House
+                            (Orlando, Florida) after employees complained that a
+                            man ripped a urinal off the men’s room wall.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div
+                        id="question_set8"
+                        style="border: 1px solid lightgray; padding: 20px"
+                      >
+                        <div
+                          id="question8"
+                          style="
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                          "
+                        >
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+
+                          <p>
+                            Upon creating watery property damage, how do you
+                            think Florida-Man chose to conceal his guilt?
+                          </p>
+                          <div id="button_ans8" style="padding: 10px">
+                            <button class="btn btn-outline-secondary" value="">
+                              Using the panic and flood to quietly make his
+                              getaway
+                            </button>
+                            <br />
+                            <button class="btn btn-outline-secondary">
+                              Changing into a new set of clothing <br />
+                              before leaving the scene of the crime
+                            </button>
+                            <br />
+                            <button
+                              class="btn btn-outline-secondary"
+                              id="q8_ans"
+                            >
+                              Arguing with employees aware of his actions in the
+                              parking lot
+                            </button>
+                          </div>
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+                        </div>
+
+                        <div>
+                          <p
+                            id="8"
+                            style="
+                              border: 1px solid lightgray;
+                              border-radius: 5px;
+                              background-color: #f1f1f1;
+                              padding: 30px;
+                              font-weight: bolder;
+                            "
+                          >
+                            According to the Tallahassee Police Department, when
+                            this unidentified and soaked man in his 20s was
+                            spotted by angry employees in the parking lot after
+                            damaging the bathroom, he didn’t offer much in the
+                            way of explanation.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div
+                        id="question_set9"
+                        style="border: 1px solid lightgray; padding: 20px"
+                      >
+                        <div
+                          id="question9"
+                          style="
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                          "
+                        >
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+
+                          <p>
+                            Now caught red-handed, how do you think Florida-man
+                            made his grand escape?
+                          </p>
+                          <div id="button_ans9" style="padding: 10px">
+                            <button class="btn btn-outline-secondary" value="">
+                              Asking politely for a ride back home
+                            </button>
+                            <br />
+                            <button class="btn btn-outline-secondary">
+                              Driving away in a car
+                            </button>
+                            <br />
+                            <button
+                              class="btn btn-outline-secondary"
+                              id="q9_ans"
+                            >
+                              Stripping naked to avoid capture
+                            </button>
+                          </div>
+                          <div
+                            style="
+                              border: 1px solid lightgray;
+                              background-color: #666;
+                            "
+                          >
+                            .
+                          </div>
+                        </div>
+
+                        <div>
+                          <p
+                            id="9"
+                            style="
+                              border: 1px solid lightgray;
+                              border-radius: 5px;
+                              background-color: #f1f1f1;
+                              padding: 30px;
+                              font-weight: bolder;
+                            "
+                          >
+                            Instead, he stripped butt-naked and ran into the
+                            nearby woods to avoid capture, the police posted on
+                            Facebook. “I hate to question anyone’s escape plan,
+                            but a change of clothes never really works and a
+                            grown man running around naked is certainly going to
+                            attract more attention than whatever he was wearing
+                            prior to.”
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                    <div id="story3_headline" class="col" style="">
+                        .
+                      <div
+                        class="row d-flex justify-content-center"
+                        style="padding: 20px"
+                      >
+                        <img
+                          src="assets/urinal-bathroom-generic_36831733_ver1.0.jpg"
+                          alt=""
+                          style="
+                            padding: 20px;
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                            height: 200px;
+                            width: 200px;
+                          "
+                        />
+
+                        <h5 style="color: black; font-weight: bolder">
+                          <p>
+                            Man rips urinal off a pub’s wall — then runs wet and
+                            naked in the woods to escape
+                          </p>
+                        </h5>
+                        <p>
+                          <a
+                            href="https://www.miamiherald.com/article193917874.html"
+                            >https://www.miamiherald.com/article193917874.html</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $("#1").hide();
+      $("#2").hide();
+      $("#3").hide();
+      $("#4").hide();
+      $("#5").hide();
+      $("#6").hide();
+      $("#7").hide();
+      $("#8").hide();
+      $("#9").hide();
+      //   id="div_revealq1"
+      $("#story1_headline").hide();
+      $("#story2_headline").hide();
+      $("#story3_headline").hide();
+
+
+      //   $("#1").hide();
+      $("#q1_ans").click(function () {
+        $("#question1").hide();
+        var a = $(this).val();
+        $("#1").show();
+        $("#q1img").height(250);
+        $("#q1_title").height(300);
+      });
+
+      //   $("#1").hide();
+      $("#q2_ans").click(function () {
+        $("#question2").hide();
+        var a = $(this).val();
+        $("#2").show();
+        $("#q1img").height(300);
+        $("#q1_title").height(350);
+      });
+      $("#q3_ans").click(function () {
+        $("#question3").hide();
+        var a = $(this).val();
+        $("#3").show();
+        $("#story1_headline").show();
+        $("#q1img").height(350);
+        $("#q1_title").height(400);
+
+        // $("#div_revealq1").show();
+        // $("#div_revealq1").slideUp();
+      });
+
+      //   //////////
+      $("#q4_ans").click(function () {
+        $("#question4").hide();
+        var a = $(this).val();
+        $("#4").show();
+        $("#q2img").height(250);
+        $("#q2_title").height(300);
+      });
+      $("#q5_ans").click(function () {
+        $("#question5").hide();
+        var a = $(this).val();
+        $("#5").show();
+        $("#q2img").height(300);
+        $("#q2_title").height(350);
+      });
+      $("#q6_ans").click(function () {
+        $("#question6").hide();
+        var a = $(this).val();
+        $("#6").show();
+        $("#q2img").height(350);
+        $("#q2_title").height(400);
+        $("#story2_headline").show();
+
+      });
+
+      //   /////////
+      $("#q7_ans").click(function () {
+        $("#question7").hide();
+        var a = $(this).val();
+        $("#7").show();
+        $("#q3img").height(250);
+        $("#q3_title").height(300);
+      });
+      $("#q8_ans").click(function () {
+        $("#question8").hide();
+        var a = $(this).val();
+        $("#8").show();
+        $("#q3img").height(300);
+        $("#q3_title").height(350);
+      });
+      $("#q9_ans").click(function () {
+        $("#question9").hide();
+        var a = $(this).val();
+        $("#9").show();
+        $("#story3_headline").show();
+
+        $("#q3img").height(350);
+        $("#q3_title").height(400);
+      });
+    </script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
